@@ -8,7 +8,7 @@ body{
 .main{
     width: 100vw;
     height: 100vh;
-    background-color: #fff;
+    background-color: #f2f4f7;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -231,4 +231,46 @@ body{
     width: 20px;
     height: 20px;
     position: absolute;
+}
+
+.feed{
+    width: 500px;
+    height: 123px;
+    box-sizing: border-box;
+    position: absolute;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .4);
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    top: 79px;
+    text-align: center;
+}
+
+.feed input{
+    box-sizing: border-box;
+    background-color: #f0f2f5;
+    padding: 10px;
+    border-radius: 20px;
+    width: 400px;
+    border: none;
+    top: 15px;
+    left: 70px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.profile-status img{
+    border-radius: 40px;
+    background-color: #f0f2f5;
+    width: 40px;
+    height: 40px;
+    left: 15px;
+    top: 15px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
